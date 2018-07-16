@@ -1,0 +1,30 @@
+.pow{
+    width: 80%;
+    margin: 0 auto;
+}
+.createbtn{
+    text-align: center;
+}
+.sess{
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 30px;
+}
+.selector{
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+   border-radius: 10px;
+    padding: 30px;
+    border: 1px solid black;
+    margin-bottom: 40px;
+}
+.each{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    margin: 20px;
+    padding: 20px;
+
+}

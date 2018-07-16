@@ -1,0 +1,43 @@
+
+
+<div class="bod">
+    <p><u>Complete Registration</u></p>
+    <p>Your Centre: Center 1</p>
+    <p>Date Selected: Monday 05-07-2018 </p>
+    <p>Time Selected: 8-9AM</p>
+    
+    <div class="form">
+
+  <div class="row">
+  <div class="col-sm">
+      <div class="form-group">
+          <label for="exampleFormControlInput1">Name</label>
+          <input type="name" #nam class="form-control" id="exampleFormControlInput1" placeholder="John Doe">
+        </div>
+  </div>
+  <div class="col-sm">
+      <div class="form-group">
+          <label for="exampleFormControlInput1">Phone Number</label>
+          <input type="number" #phone class="form-control" id="exampleFormControlInput1" placeholder="080xxxxxxxx">
+        </div>
+  </div>
+  <div class="col-sm">
+      <div class="form-group">
+          <label for="exampleFormControlInput1">Email address</label>
+          <input type="email" #email class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+  </div>
+  </div>
+
+   </div>
+
+        <div>
+            <button type="submit" class="btn btn-primary" (click)="reg(nam,phone,email)">Register</button>
+        </div>
+        
+  
+  </div>
+
+  <div class="back" routerLink="/day">
+    Back
+  </div>

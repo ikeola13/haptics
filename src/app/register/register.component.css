@@ -1,0 +1,43 @@
+
+.bod{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    color: black;
+    text-align: center;
+}
+
+.child{
+    border: 1px solid royalblue;
+    padding: 30px;
+    text-align: center;
+    background-color: royalblue;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 10px;
+}
+.child:hover{
+    background-color: white;
+    color: royalblue;
+
+}
+
+.back{
+    text-align: center;
+    padding: 10px;
+    background: black;
+    width: 30%;
+    color: white;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+.form{
+    text-align: left;
+    width: 100%;
+    margin: 0 auto;
+}

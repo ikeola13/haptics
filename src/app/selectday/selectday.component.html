@@ -1,0 +1,54 @@
+
+
+<div class="bod">
+    <p>Select Convenient Day</p>
+    <!-- <div class="child"  routerLink="/register" >Sunday</div>
+    <div class="child"  routerLink="/register">Monday</div>
+    <div class="child"  routerLink="/register">Tuesday</div>
+    <div class="child"  routerLink="/register">Wednesday</div>
+    <div class="child"  routerLink="/register">Thursday</div>
+    <div class="child"  routerLink="/register">Friday</div>
+    <div class="child"  routerLink="/register">Saturday</div> -->
+    <p>Duration of Training : 60 minutes</p>
+
+   
+
+    <div class="row pop">
+    <div class="col-sm">
+    <div class="form-group">
+      <label for="exampleFormControlInput1">Select Date (DD-MM-YYYY)</label>
+      <!-- <input type="Date" class="form-control" id="exampleFormControlInput1" placeholder="Select Day"> -->
+
+      <my-date-picker name="mydate" [options]="myDatePickerOptions"
+                    [(ngModel)]="model" required></my-date-picker>
+
+    </div>
+  </div>
+
+  <div class="col-sm">
+    <div class="form-group">
+      <label for="exampleFormControlInput1">Select from Available Sessions</label>
+      <select style="text-align: center"  #session  class="form-control" id="exampleFormControlSelect1" >
+        <option>8 - 9 AM</option>
+        <option>9 - 10 AM</option>
+        
+      </select>
+    </div>
+  </div>
+
+</div>
+
+<div>
+  <button type="submit" class="btn btn-primary" routerLink="/register" (click)="get(session)">Proceed</button>
+</div>
+
+
+ 
+
+
+  
+  </div>
+
+  <div class="back" routerLink="/">
+    Back
+  </div>
